@@ -2,7 +2,7 @@
 const SomeComp: React.FC<{count: number}> = ({count}) => {
   return (
     <p>
-        {count+10}
+        {count*10}
     </p>
   )
 }
